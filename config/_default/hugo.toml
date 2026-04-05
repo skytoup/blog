@@ -21,9 +21,3 @@ home = ['html', 'rss']
 section = ['html', 'rss']
 taxonomy = ['html']
 term = ['html']
-
-[privacy]
-  [privacy.x]
-    disable = true
-    enableDNT = false
-    simple = false
