@@ -20,6 +20,8 @@ description: Apple .xcassets 文件结构
 > 如有审核不足, 可在评论区指出错漏的地方.
 > 
 > 代码有空整理再放出来吧🕊️🕊️🕊️
+> 
+> 搞到Web上用, 纯单机 <https://car.skytoup.com>
 # Apple Assets (.car) File Format
 
 Apple 的 `.car` (Compiled Asset Catalog) 文件是 Xcode 在编译 Asset Catalog (`.xcassets`) 时生成的二进制文件。它采用三层嵌套结构：**BOM 容器** 包裹 **CAR 元数据与索引**，CAR 索引指向 **CSI 渲染数据**。
